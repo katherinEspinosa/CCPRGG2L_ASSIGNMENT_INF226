@@ -27,8 +27,6 @@ public class App {
         }
     }
 
-
-
     static void train(String skill) {
         System.out.println("Driving Skills");
     }
@@ -50,5 +48,6 @@ public class App {
     static void show(String skills) {
         System.out.println("Training driving " + skills + " passed!");
     }
+    
 }
 

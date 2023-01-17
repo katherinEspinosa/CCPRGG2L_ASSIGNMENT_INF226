@@ -66,7 +66,7 @@ public class exercise1 {
         String myfiles = "myfile.txt, thesis.xlsx, this is not a file, picture.jpg, selfie.png";
 
         // Provide regex pattern
-        pattern = Pattern.compile("[a-zA-Z]+(.txt|.xlsx|.jpg|.png)");
+        pattern = Pattern.compile(".+(.txt|.xlsx|.jpg|.png)");
         match = pattern.matcher(myfiles);
 
         boolean found = false;

@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class App {
+public class assignment2 {
 
     static Scanner scan = new Scanner(System.in);
-    static final int targetWeight = 150;
+    static final int targetWeight = 166;
 
     public static void main(String[] args) throws Exception {
 
@@ -40,8 +40,6 @@ public class App {
         // System.out.println("I have reached my target weight!");
            
     }
-
-    
 
     static int checkWeight(int weight) {
         System.out.println("My current weight is: " + weight + "lbs");
